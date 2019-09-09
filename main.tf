@@ -20,7 +20,7 @@ module "networking" {
 }
 
 module "ecs-fargate" {
-  source                       = "app.terraform.io/yeet/ecs-fargate/aws"
+  source                       = "app.terraform.io/yet/ecs-fargate/aws"
   version                      = "2.0.4"
   name_preffix                 = "${var.prefix}"
   profile                      = "aws_profile"
