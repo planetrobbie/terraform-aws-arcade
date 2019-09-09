@@ -9,3 +9,7 @@ variable "region" {
   description = "The region where the resources are created."
   default     = "eu-west-3"
 }
+
+variable "prefix" {
+  description = "This prefix will be included in the name of most resources."
+}
